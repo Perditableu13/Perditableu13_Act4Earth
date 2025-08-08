@@ -1,0 +1,358 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #ffffff; 
+}
+
+main {
+   padding: 20px;
+}
+
+/* STYLE TEXT */
+
+nav {
+  background-color: #0d0503;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  text-decoration: underline;
+}
+
+nav ul li {
+  margin: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav li a:hover {
+background-color: #d4bdff;
+}
+
+nav ul a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav li a.active {
+  border: 1px solid #e0e0e0;
+  background-color: black;
+}
+
+footer {
+   background-color: #000000;
+   color: #ffffff;
+   text-align: center;
+   padding: 10px 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+  color: #97be9f;
+}
+
+#title {
+   background-color: #d1ead1;
+   border: 1px solid #000000;
+   padding: 40px;
+   margin-left: 60px;
+   margin-right: 60px;
+   font-style: italic;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+h2 {
+   margin-bottom: 20px;
+}
+
+h3 {
+   color: black;
+   text-align: center;
+   line-height: 1.5;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+h4 {
+   color: #151533;
+   text-align: center;
+   line-height: 1.5;
+   font-weight: bold;
+}
+
+h5 {
+   text-align: center;
+   margin-bottom: 5px;
+   font-size: 15px;
+   font-style: italic;
+   padding: 10px;
+   font-weight: normal;
+}
+
+
+ul {
+   list-style-type: none;
+   text-align: center;
+   line-height: 1.5;
+}
+
+img {
+   display: block;
+   border-radius: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   height: auto;
+}
+
+header {
+   background-color: #ffffff;
+   background-image:
+   url('assets/natureTwo.png');
+   height: 200px;
+   width: auto;
+   text-align: center;
+   align-content: center;
+   padding: 140px;
+   margin-bottom: 20px;
+}
+
+p {
+   line-height: 1.5;
+}
+
+#environ {
+  background-color: #183e26;
+   color: #ffffff;
+   text-align: center; 
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+#environ ul {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0px;
+   justify-content: center;
+   list-style: none;
+}
+
+#environ li {
+   text-align: center;
+   margin: 2px;
+}
+
+#environ li img {
+   display: block;
+   border-radius: 0;       
+   margin-left: 0;         
+   margin-right: 0;
+   width: auto;           
+   max-width: 400px;
+   max-height: 400px;
+}
+
+#factStyle {
+   background-color: #00521d;
+   color: #ffffff;
+   text-align: center;
+   margin: 40px;
+   padding: 40px;
+}
+
+#factBackground {
+   background-color: #e6efe9;
+   border: 1px solid #000000;
+   margin-top: 20px;
+}
+
+#special {
+   background-color: #a2beac;
+   border: 1px solid #000000;
+   color: white; 
+   padding: 4px;
+   margin-left: 250px;
+   margin-right: 250px;
+   margin-top: 40px;
+}
+
+#button {
+   background-color: #00521d;
+   color: #ffffff;
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#button:hover {
+   background-color: #73b087;
+}
+
+.parent {
+  text-align: center;
+}
+
+#mainMessage {
+   margin: 60px;
+   text-align: center;
+   font-style: italic;
+}
+
+.myths {
+   background-color: #f6eeee; 
+   border: 1px solid #000000;
+   padding: 10px;
+   margin-left: 180px;
+   margin-right: 180px;
+   margin-top: 40px;
+   margin-bottom: 0px; 
+}
+
+.facts {
+   background-color: #edfded;
+   border: 1px solid #000000;
+   padding: 10px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+
+
+.image-row {
+   display: flex;
+   align-items: center;
+   margin: 0px;
+   margin-bottom: 0px;
+}
+
+#caption {
+   word-spacing: 140px;
+   font-size: 20px;
+   margin-top: 0px;
+   color: #ffffff;
+   font-weight: bold;
+}
+
+#everyone {
+   margin-bottom: 60px;
+   margin-top: 40px;
+   border-bottom-color: green;
+   background-color: #ffffff;
+   border-bottom: 1px solid #095d2d;
+   border-top: 1px solid #095d2d;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#affected {
+   background-color: #97be9f;
+   margin: 20px;
+   padding: 20px;
+   margin-bottom: 60px;
+}
+
+#Faqs {
+   background-color: #e6efe9;
+   border: 1px solid #000000;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 20px;
+   text-align: center;
+}
+
+#resources {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;               /* consistent spacing between cards */
+   background-color: #e6efe9;
+   border: 1px solid #000;
+   margin: 20px;
+   padding: 20px;
+}
+
+#resources .resourceOne {
+  flex: 1 1 250px;   /* grows and shrinks, with a preferred base width of ~250px */
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.resourceOne {
+   border: 1px solid #000000;
+   padding: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+#resourcesTitle {
+   background-color: #e6efe9;
+   margin-bottom: 0.5px;
+   border: 1px solid #000000;
+}
+
+#greenPeaceImg {
+   border-radius: 20px;
+}
+
+#polarBearImg {
+   border-radius: 20px;
+   width: 60%;
+   height: auto;
+   display: block; 
+   margin: auto;
+   margin-top: 20px
+}
+
+#contactInfo {
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+   background-color: #e6efe9;
+   border: 1px solid #000000;
+}
+
+#aboutInfo {
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+   background-color: #e6efe9;
+   border: 1px solid #000000
+}
+
+#cause {
+   color: #f5fff8;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
